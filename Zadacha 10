@@ -1,0 +1,17 @@
+using System;
+class Margo {
+static void Main() {
+Console.WriteLine("Введите число 1:");
+int a = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число 2:");
+int b = int.Parse(Console.ReadLine());
+Console.WriteLine("Введите число 3:");
+int c = int.Parse(Console.ReadLine());
+if (a>=1 && a<=3)
+Console.WriteLine(a + " Входит в интервал");
+if (b>=1 && b<=3
+Console.WriteLine(b + " Входит в интервал");
+if (c>=1 && c<=3)
+Console.WriteLine(c + " Входит в интервал");
+}
+}
