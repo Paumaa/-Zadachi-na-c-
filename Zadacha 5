@@ -1,0 +1,18 @@
+using System; 
+
+public class Program {
+
+  public static void Main(string[] args) {
+    int x=Convert.ToInt32(Console.ReadLine());
+    int y=Conver.ToInt32(Console.ReadLine());
+    int z=Convert.ToInt32(Console.ReadLine());
+    if (x=y=z) {
+      Console.WriteLine(3);
+    }
+    else if ((x=y)||(x=z)||(y=z)) {
+      Console.WriteLine(2);
+    }
+    else 
+    Console.WriteLine(0);
+  }
+}
