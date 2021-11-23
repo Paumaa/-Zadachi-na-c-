@@ -7,8 +7,6 @@ if (sum>500 && sum<=1000)
 Console.WriteLine(sum * 0.97);
 else if (sum>1000)
 Console.WriteLine(sum * 0.95);
-else
-Console.WriteLine("Idite Naxuy!");
 
 }
 }
