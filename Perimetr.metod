@@ -1,0 +1,14 @@
+using System; 
+
+public class Program {
+  static int Perimetr(int a, int b, int c){
+    int p = a + b + c;
+    return (p);
+  }
+  public static void Main(string[] args) {
+    int a1 = int.Parse(Console.ReadLine());
+    int b1 = int.Parse(Console.ReadLine());
+    int c1 = int.Parse(Console.ReadLine());
+    Console.WriteLine(Perimetr(a1,b1,c1));
+  }
+}
